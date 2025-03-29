@@ -17,3 +17,4 @@ sed -i 's|<!DOCTYPE html><html><head><meta charset="utf-8"><meta http-equiv="Con
 mv "../pages/log/index.html" "../pages/log/index-notabot.html"
 git clone https://github.com/Sneed-Group/scrapeguard
 cp -r scrapeguard/* ../pages/log
+rm -rf scrapeguard/

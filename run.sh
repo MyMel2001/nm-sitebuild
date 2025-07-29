@@ -3,7 +3,7 @@ cd "$(dirname "$0")"
 
 # Convert Gemini capsule pages to HTML
 ./gmi2html_allauto.sh ../pages
-git clone "https://github.com/sneedgroup-holder/nm2.0" wwwsite
+git clone "https://github.com/MyMel2001/site" wwwsite
 
 # Add our main webpages
 cp -r wwwsite/* ../pages
